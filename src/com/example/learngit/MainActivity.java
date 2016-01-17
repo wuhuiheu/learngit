@@ -8,6 +8,7 @@ import android.view.MenuItem;
 
 public class MainActivity extends Activity {
 	
+	//算1+...+100中奇数的和
 	private int add1To100(){
 		int result = 0;
 		for(int i = 1; i <= 100; i += 2){
