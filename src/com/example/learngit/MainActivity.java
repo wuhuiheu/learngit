@@ -10,7 +10,7 @@ public class MainActivity extends Activity {
 	
 	private int add1To100(){
 		int result = 0;
-		for(int i = 1; i <= 100; i++){
+		for(int i = 1; i <= 100; i += 2){
 			result += i;
 		}
 		return result;
