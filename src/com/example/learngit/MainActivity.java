@@ -8,9 +8,10 @@ import android.view.MenuItem;
 
 public class MainActivity extends Activity {
 	
+	//算1+...100中偶数的各
 	private int add1To100(){
 		int total = 0;
-		for(int i = 1; i <= 100; i += 2){
+		for(int i = 2; i <= 100; i += 2){
 			total += i;
 		}
 		return total;
